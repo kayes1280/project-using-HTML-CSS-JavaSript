@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="navbar">
+            <a href="index.html" > <img src="logo.png"></a>
+            <div class="nav-links" id="navlinks">
+               <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+
+                <ul>
+                    <li class="list"><a href="index.html">HOME</a></li>
+                    <li class="list"><a href="index-about.html">ABOUT</a></li>
+                    <li class="list"><a href="index-course.html">COURSE</a></li>
+                    <li class="list"><a href="index-blog.html">BLOG</a></li>
+                    <li class="list"><a href="index-contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+	<h1>Our Courses</h1>
+           </section>
+
+    <!------- course section -------->
+    <section class="course">
+        <h1 class="heading1">Courses we offer</h1>
+        <p class="para1">Explore the intersection of technology and society. Learn about environmental justice. Take the famous Problem of God course. Our innovative courses inspire and invite you to help solve some of today’s most pressing local, national and global issues.</p>
+
+        <div class="row">
+            <div class="column">
+                <h2>Undergraduate Programs</h2>
+                <p class="para4">For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.</p>
+            </div>
+
+            <div class="column">
+                <h2>Graduate Programs</h2>
+                <p class="para4">Building on our strong roots in leadership, health care and education, Eduford is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+            </div>
+
+            <div class="column">
+                <h2>Post Graduation</h2>
+                <p class="para4">The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+            </div>
+        </div>
+    </section>
+    
+  <!-------------- Our Facilities ----------------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We commit to meet the financial need of every admitted undergraduate student. We don’t consider your ability to pay when we review your application, and we don’t base our decision on whether you can cover the cost. If you’re accepted here, you belong here.</p>
+
+        <div class="facilities-row">
+                <div class="facilities-col">
+                    <img src="library.png">
+                    <h3>Undergraduate Programs</h3>
+                    <p>For decades, Eduford College has improved the health of our communities, one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education.</p>
+                </div>
+
+            
+                <div class="facilities-col">
+                    <img src="basketball.png">
+                    <h3>Graduate Programs</h3>
+                    <p>Building on our strong roots in leadership, health care and education, Eduford is proud to offer an array of coed graduate programs for women and men who are ready to advance their careers and grow as leaders. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="cafeteria.png">
+                    <h3>Post Graduation</h3>
+                    <p>The Eduford, as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education. The Eduford College Community Psychology Master's program will help you to meet your goals of becoming a Licensed Professional Counselor.</p>
+                </div>
+        </div>
+
+    </section>
+
+    <!-----------------footer------------------->
+
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa-solid fa-heart"></i> by KAYES AHMAD</p>
+
+    </section>
+
+    <script>
+        let navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right='0';
+        }
+        function hidemenu(){
+            navlinks.style.right='-200px';
+        }
+    </script>
+</body>
+</html>
